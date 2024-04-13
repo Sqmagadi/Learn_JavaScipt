@@ -1,45 +1,6 @@
 
 
-## Using JavaScript
 
-In HTML, JavaScript code is inserted between `<script>` and `</script> ` tags.
-
-```
-<script>
-document.getElementById("demo").innerHTML = "My First JavaScript";
-</script>
-```
-
-In HTML, javascript can be added both in the *head* or in within the *body*.
-
-### Eternal JavaScript
-
-To use an external Javascript, create a new file, For example:
-`myScript.js`
-
-External scripts are practical when the same code is used in many different web pages.
-
-JavaScript files have the file extension `.js`.
-
-To use an external script, put the name of the script file in the src (source) attribute of a `<script> `tag:
-
-```
-<script src="myScript.js"></script>
-```
-
-You can use as many script files as you need to. All you need to do is to add all the script files to your HTML file:
-
-```
-<script src="myScript1.js"></script>
-<script src="myScript2.js"></script>
-<script src="myScript3.js"></script>
-```
-
-#### External JavaScript Advantages
-
-- It separates HTML and code
-- It makes HTML and JavaScript easier to read and maintain
-- Cached JavaScript files can speed up page loads
 
 
 # JavaScript Output
