@@ -35,32 +35,31 @@ let answer2 = "He is called 'Johnny'";
 let answer3 = 'He is called "Johnny"';
 ```
 
-Template Strings
-
-Templates were introduced with ES6 (JavaScript 2016).
+### Template Strings
 
 Templates are strings enclosed in backticks (`This is a template string`).
 
 Templates allow single and double quotes inside a string:
 
 Example
-let text = `He's often called "Johnny"`;
 
-Try it Yourself »
-
-Note
-
-Templates are not supported in Internet Explorer.
+`let text = `He's often called "Johnny"`;`
 
 
-String Length
+
+> Note: Templates are not supported in Internet Explorer.
+
+
+### String Length
 
 To find the length of a string, use the built-in length property:
 
-Example
+*Example*
+
+```
 let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let length = text.length;
-Try it Yourself »
+```
 
 Escape Characters
 
