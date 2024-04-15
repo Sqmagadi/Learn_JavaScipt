@@ -61,7 +61,7 @@ let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let length = text.length;
 ```
 
-Escape Characters
+###Escape Characters
 
 Because strings must be written within quotes, JavaScript will misunderstand this string:
 
