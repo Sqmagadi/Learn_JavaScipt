@@ -61,23 +61,24 @@ let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let length = text.length;
 ```
 
-###Escape Characters
+### Escape Characters
 
 Because strings must be written within quotes, JavaScript will misunderstand this string:
 
-let text = "We are the so-called "Vikings" from the north.";
+`let text = "We are the so-called "Vikings" from the north.";`
 
-The string will be chopped to "We are the so-called ".
+The string will be chopped to "**We are the so-called**".
 
 To solve this problem, you can use an backslash escape character.
 
-The backslash escape character (\) turns special characters into string characters:
+The backslash escape character (`\`) turns special characters into string characters:
 
 Code
 \'
 \"
 \\
-Examples
+
+*Examples*
 
 \" inserts a double quote in a string:
 
