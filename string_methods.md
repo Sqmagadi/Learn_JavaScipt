@@ -26,23 +26,25 @@ Javascript strings are **primitive** and **immutable**: All string methods produ
 - String split()
 
 
-JavaScript String Length
+### JavaScript String Length
 
 The length property returns the length of a string:
 
-Example
+*Example*
+
+```
 let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let length = text.length;
-Try it Yourself »
+```
 
-Extracting String Characters
+# Extracting String Characters
 
 There are 4 methods for extracting string characters:
 
-The at(position) Method
-The charAt(position) Method
-The charCodeAt(position) Method
-Using property access [] like in arrays
+- The at(position) Method
+- The charAt(position) Method
+- The charCodeAt(position) Method
+- Using property access [] like in arrays
 
 
 JavaScript String charAt()
