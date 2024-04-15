@@ -41,146 +41,150 @@ let length = text.length;
 
 There are 4 methods for extracting string characters:
 
-- The at(position) Method
-- The charAt(position) Method
-- The charCodeAt(position) Method
+- The `at(position)` Method
+- The `charAt(position)` Method
+- The `charCodeAt(position)` Method
 - Using property access [] like in arrays
 
 
-JavaScript String charAt()
+### JavaScript String charAt()
 
-The charAt() method returns the character at a specified index (position) in a string:
+The `charAt()` method returns the character at a specified index (position) in a string:
 
-Example
+*Example*
+
+```
 let text = "HELLO WORLD";
 let char = text.charAt(0);
-Try it Yourself »
+```
 
-JavaScript String charCodeAt()
+### JavaScript String charCodeAt()
 
-The charCodeAt() method returns the code of the character at a specified index in a string:
+The `charCodeAt()` method returns the code of the character at a specified index in a string:
 
 The method returns a UTF-16 code (an integer between 0 and 65535).
 
-Example
+*Example*
+
+```
 let text = "HELLO WORLD";
 let char = text.charCodeAt(0);
-Try it Yourself »
+```
 
-JavaScript String at()
+### JavaScript String at()
 
 ES2022 introduced the string method at():
 
-Examples
+*Examples*
 
 Get the third letter of name:
 
+```
 const name = "W3Schools";
 let letter = name.at(2);
 
-Try it Yourself »
+```
 
 Get the third letter of name:
 
+```
 const name = "W3Schools";
 let letter = name[2];
+```
 
-Try it Yourself »
+The `at()` method returns the character at a specified index (position) in a string.
 
-The at() method returns the character at a specified index (position) in a string.
+The` at()` method is supported in all modern browsers since March 2022:
 
-The at() method is supported in all modern browsers since March 2022:
+>Note: The at() method is a new addition to JavaScript.
 
-Note
+>It allows the use of negative indexes while charAt() do not.
 
-The at() method is a new addition to JavaScript.
-
-It allows the use of negative indexes while charAt() do not.
-
-Now you can use myString.at(-2) instead of charAt(myString.length-2).
+>Now you can use myString.at(-2) instead of charAt(myString.length-2).
 
 
 
+### Property Access [ ]
 
+*Example*
 
-
-
-
-
-
-Property Access [ ]
-Example
+```
 let text = "HELLO WORLD";
 let char = text[0];
-Try it Yourself »
-Note
+```
 
-Property access might be a little unpredictable:
+>Note: Property access might be a little unpredictable:
 
-It makes strings look like arrays (but they are not)
-If no character is found, [ ] returns undefined, while charAt() returns an empty string.
-It is read only. str[0] = "A" gives no error (but does not work!)
+- It makes strings look like arrays (but they are not)
+- If no character is found, [ ] returns undefined, while charAt() returns an empty string.
+- It is read only. str[0] = "A" gives no error (but does not work!)
 
-Example
+*Example*
+
+```
 let text = "HELLO WORLD";
 text[0] = "A";    // Gives no error, but does not work
-Try it Yourself »
+```
 
-Extracting String Parts
+
+#### Extracting String Parts
 
 There are 3 methods for extracting a part of a string:
 
-slice(start, end)
-substring(start, end)
-substr(start, length)
+1. slice(start, end)
+2. substring(start, end)
+3. substr(start, length)
 
 
-JavaScript String slice()
+#### 1. JavaScript String slice()
 
-slice() extracts a part of a string and returns the extracted part in a new string.
+`slice()` extracts a part of a string and returns the extracted part in a new string.
 
-The method takes 2 parameters: start position, and end position (end not included).
+The method takes 2 parameters: **start position,** and **end position** (end not included).
 
-Example
+*Example*
 
 Slice out a portion of a string from position 7 to position 13:
 
+```
 let text = "Apple, Banana, Kiwi";
 let part = text.slice(7, 13);
+```
 
-Try it Yourself »
-Note
-
-JavaScript counts positions from zero.
+>Note: JavaScript counts positions from zero.
 
 First position is 0.
 
 Second position is 1.
 
-Examples
+*Examples*
 
 If you omit the second parameter, the method will slice out the rest of the string:
 
+```
 let text = "Apple, Banana, Kiwi";
 let part = text.slice(7);
+```
 
-Try it Yourself »
 
 If a parameter is negative, the position is counted from the end of the string:
 
+```
 let text = "Apple, Banana, Kiwi";
 let part = text.slice(-12);
+```
 
-Try it Yourself »
 
 This example slices out a portion of a string from position -12 to position -6:
 
+```
 let text = "Apple, Banana, Kiwi";
 let part = text.slice(-12, -6);
 
-Try it Yourself »
+```
 
-ADVERTISEMENT
+
+
 
 JavaScript String substring()
 
