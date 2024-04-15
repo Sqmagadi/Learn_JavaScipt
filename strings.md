@@ -73,11 +73,12 @@ To solve this problem, you can use an backslash escape character.
 
 The backslash escape character (`\`) turns special characters into string characters:
 
-Code
-\'
-\"
-\\
 
+|Code	|Result	|Description|
+|---|---|
+|\'	|'	|Single quote|
+|\"	|"	|Double quote|
+|\\	|\	|Backslash|
 *Examples*
 
 \" inserts a double quote in a string:
