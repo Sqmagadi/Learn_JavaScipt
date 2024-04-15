@@ -100,19 +100,20 @@ The backslash escape character (`\`) turns special characters into string charac
 
 Six other escape sequences are valid in JavaScript:
 
-Code
-\b
-\f
-\n
-\r
-\t
-\v
-Note
-
-The 6 escape characters above were originally designed to control typewriters, teletypes, and fax machines. They do not make any sense in HTML.
+|Code	|Result|
+|---|---|
+|\b	|Backspace|
+|\f	|Form Feed|
+|\n	|New Line|
+|\r	|Carriage Return|
+|\t	|Horizontal Tabulator|
+|\v	|Vertical Tabulator|
 
 
-ADVERTISEMENT
+>Note: The 6 escape characters above were originally designed to control typewriters, teletypes, and fax machines. They do not make any sense in HTML.
+
+
+
 
 Breaking Long Lines
 
