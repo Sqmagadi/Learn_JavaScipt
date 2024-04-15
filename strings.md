@@ -79,24 +79,24 @@ The backslash escape character (`\`) turns special characters into string charac
 |\'	|'	|Single quote|
 |\"	|"	|Double quote|
 |\\	|\	|Backslash|
+
 *Examples*
 
 \" inserts a double quote in a string:
 
-let text = "We are the so-called \"Vikings\" from the north.";
-Try it Yourself »
+`let text = "We are the so-called \"Vikings\" from the north.";`
 
 \' inserts a single quote in a string:
 
-let text= 'It\'s alright.';
+`let text= 'It\'s alright.';`
 
-Try it Yourself »
+
 
 \\ inserts a backslash in a string:
 
-let text = "The character \\ is called backslash.";
+`let text = "The character \\ is called backslash.";`
 
-Try it Yourself »
+
 
 Six other escape sequences are valid in JavaScript:
 
