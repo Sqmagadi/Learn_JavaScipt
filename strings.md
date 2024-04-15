@@ -1,28 +1,25 @@
+# JavaScript Strings
 
-JavaScript Strings
-❮ PreviousNext ❯
-
-Strings are for storing text
-
-Strings are written with quotes
-
-Using Quotes
+Strings are for storing text and are written with quotes
 
 A JavaScript string is zero or more characters written inside quotes.
 
-Example
-let text = "John Doe";
-Try it Yourself »
+*Example*
+
+`let text = "John Doe";`
+
 
 You can use single or double quotes:
 
-Example
+*Example*
+
+```
 let carName1 = "Volvo XC60";  // Double quotes
 let carName2 = 'Volvo XC60';  // Single quotes
-Try it Yourself »
-Note
+```
 
-Strings created with single or double quotes works the same.
+
+> Note: Strings created with single or double quotes works the same.
 
 There is no difference between the two.
 
@@ -30,11 +27,13 @@ Quotes Inside Quotes
 
 You can use quotes inside a string, as long as they don't match the quotes surrounding the string:
 
-Example
+*Example*
+
+```
 let answer1 = "It's alright";
 let answer2 = "He is called 'Johnny'";
 let answer3 = 'He is called "Johnny"';
-Try it Yourself »
+```
 
 Template Strings
 
