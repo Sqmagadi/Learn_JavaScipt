@@ -115,25 +115,29 @@ Six other escape sequences are valid in JavaScript:
 
 
 
-Breaking Long Lines
+### Breaking Long Lines
 
 For readability, programmers often like to avoid long code lines.
 
 A safe way to break up a statement is after an operator:
 
-Example
+*Example*
+
+```
 document.getElementById("demo").innerHTML =
 "Hello Dolly!";
-Try it Yourself »
+```
 
 A safe way to break up a string is by using string addition:
 
-Example
+*Example*
+
+```
 document.getElementById("demo").innerHTML = "Hello " +
 "Dolly!";
-Try it Yourself »
+```
 
-Template Strings
+### Template Strings
 
 Templates were introduced with ES6 (JavaScript 2016).
 
