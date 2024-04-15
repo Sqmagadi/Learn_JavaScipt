@@ -139,72 +139,21 @@ document.getElementById("demo").innerHTML = "Hello " +
 
 ### Template Strings
 
-Templates were introduced with ES6 (JavaScript 2016).
 
 Templates are strings enclosed in backticks (`This is a template string`).
 
 Templates allow multiline strings:
 
-Example
+*Example*
+
+```
 let text =
 `The quick
 brown fox
 jumps over
 the lazy dog`;
+```
 
-Try it Yourself »
-
-Note
-
-Templates are not supported in Internet Explorer.
+> Note: Templates are not supported in Internet Explorer.
 
 
-JavaScript Strings as Objects
-
-Normally, JavaScript strings are primitive values, created from literals:
-
-let x = "John";
-
-But strings can also be defined as objects with the keyword new:
-
-let y = new String("John");
-Example
-let x = "John";
-let y = new String("John");
-Try it Yourself »
-
-Do not create Strings objects.
-
-The new keyword complicates the code and slows down execution speed.
-
-String objects can produce unexpected results:
-
-When using the == operator, x and y are equal:
-
-let x = "John";
-let y = new String("John");
-
-Try it Yourself »
-
-When using the === operator, x and y are not equal:
-
-let x = "John";
-let y = new String("John");
-
-Try it Yourself »
-
-Note the difference between (x==y) and (x===y).
-
-(x == y) true or false?
-
-let x = new String("John");
-let y = new String("John");
-
-Try it Yourself »
-
-(x === y) true or false?
-
-let x = new String("John");
-let y = new String("John");
-
-Try it Yourself »
