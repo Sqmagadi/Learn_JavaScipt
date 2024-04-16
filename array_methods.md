@@ -75,20 +75,23 @@ The at() method was introduced in ES2022 to solve this problem.
     
 **JavaScript Array join()**	
     
-The join() method also joins all array elements into a string.	
+The `join()` method also joins all array elements into a string.	
     
-It behaves just like toString(), but in addition you can specify the separator:	
+It behaves just like `toString()`, but in addition you can specify the separator:	
     
-Example	
+*Example*
+
+```
 const fruits = ["Banana", "Orange", "Apple", "Mango"];	
 document.getElementById("demo").innerHTML = fruits.join(" * ");	
-    
+```    
+
 Result:	
     
 Banana * Orange * Apple * Mango	
-Try it Yourself »	
+
     
-Popping and Pushing	
+**Popping and Pushing**
     
 When you work with arrays, it is easy to remove elements and add new elements.	
     
