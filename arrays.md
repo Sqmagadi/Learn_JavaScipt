@@ -28,7 +28,7 @@ Using an array literal is the easiest way to create a JavaScript Array.
 
 *Syntax:*
 
-`const array_name = [item1, item2, ...];  `    
+`const array_name = [item1, item2, ...];`    
 
 It is a common practice to declare arrays with the `const` keyword.
 
@@ -40,30 +40,31 @@ It is a common practice to declare arrays with the `const` keyword.
 
 Spaces and line breaks are not important. A declaration can span multiple lines:
 
-Example
+```
 const cars = [
   "Saab",
   "Volvo",
   "BMW"
 ];
-Try it Yourself »
+```
+
 
 You can also create an array, and then provide the elements:
 
-Example
+```
 const cars = [];
 cars[0]= "Saab";
 cars[1]= "Volvo";
 cars[2]= "BMW";
-Try it Yourself »
+```
 
-Using the JavaScript Keyword new
+Using the JavaScript Keyword `new`
 
 The following example also creates an Array, and assigns values to it:
 
-Example
-const cars = new Array("Saab", "Volvo", "BMW");
-Try it Yourself »
+
+`const cars = new Array("Saab", "Volvo", "BMW");`
+
 
 The two examples above do exactly the same.
 
