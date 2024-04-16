@@ -150,13 +150,13 @@ myArray[2] = myCars;
 
 The real strength of JavaScript arrays are the built-in array properties and methods:
 
-cars.length   // Returns the number of elements
-cars.sort()   // Sorts the array
-
-Array methods are covered in the next chapters.
+- cars.length   // Returns the number of elements
+- cars.sort()   // Sorts the array
 
 
-The length Property
+
+
+**The length Property**
 
 The length property of an array returns the length of an array (the number of array elements).
 
