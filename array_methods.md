@@ -15,41 +15,41 @@ Basic Array Methods
 - Array flat()
 
     
-JavaScript Array length	
+#### JavaScript Array length	
     
 The length property returns the length (size) of an array:	
     
-Example	
+*Example*
+
+```
 const fruits = ["Banana", "Orange", "Apple", "Mango"];	
 let size = fruits.length;	
-Try it Yourself »	
+```
     
-JavaScript Array toString()	
+**JavaScript Array toString()**
     
-The JavaScript method toString() converts an array to a string of (comma separated) array values.	
+The JavaScript method `toString()` converts an array to a string of (comma separated) array values.	
     
-Example	
+*Example*
+
+```
 const fruits = ["Banana", "Orange", "Apple", "Mango"];	
 document.getElementById("demo").innerHTML = fruits.toString();	
-    
+```
 Result:	
-    
 Banana,Orange,Apple,Mango	
     
-Try it Yourself »	
+
     
-JavaScript Array at()	
-    
-ES2022 intoduced the array method at():	
-    
-Examples	
-    
+**JavaScript Array at()**	
+
 Get the third element of fruits using at():	
-    
+
+```    
 const fruits = ["Banana", "Orange", "Apple", "Mango"];	
 let fruit = fruits.at(2);	
-    
-Try it Yourself »	
+```
+
     
 Get the third element of fruits using []:	
     
