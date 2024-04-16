@@ -102,20 +102,20 @@ document.getElementById("demo").innerHTML = fruits.toString();
 
 `Banana,Orange,Apple,Mango`
 
-Try it Yourself »
 
-Access the Full Array
+
+#### Access the Full Array
 
 With JavaScript, the full array can be accessed by referring to the array name:
 
-Example
+```
 const cars = ["Saab", "Volvo", "BMW"];
 document.getElementById("demo").innerHTML = cars;
-Try it Yourself »
+```
 
-Arrays are Objects
+#### Arrays are Objects
 
-Arrays are a special type of objects. The typeof operator in JavaScript returns "object" for arrays.
+Arrays are a special type of objects. The `typeof` operator in JavaScript returns "object" for arrays.
 
 But, JavaScript arrays are best described as arrays.
 
@@ -123,15 +123,15 @@ Arrays use numbers to access its "elements". In this example, person[0] retu
 
 Array:
 const person = ["John", "Doe", 46];
-Try it Yourself »
 
-Objects use names to access its "members". In this example, person.firstName returns John:
+
+Objects use names to access its "members". In this example, `person.firstName` returns John:
 
 Object:
 const person = {firstName:"John", lastName:"Doe", age:46};
-Try it Yourself »
 
-Array Elements Can Be Objects
+
+#### Array Elements Can Be Objects
 
 JavaScript variables can be objects. Arrays are special kinds of objects.
 
@@ -139,12 +139,14 @@ Because of this, you can have variables of different types in the same Array.
 
 You can have objects in an Array. You can have functions in an Array. You can have arrays in an Array:
 
+```
 myArray[0] = Date.now;
 myArray[1] = myFunction;
 myArray[2] = myCars;
+```
 
 
-Array Properties and Methods
+### Array Properties and Methods
 
 The real strength of JavaScript arrays are the built-in array properties and methods:
 
