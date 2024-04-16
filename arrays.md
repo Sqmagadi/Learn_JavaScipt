@@ -184,11 +184,11 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let fruit = fruits[fruits.length - 1];
 ```
 
-Looping Array Elements
+### Looping Array Elements
 
 One way to loop through an array, is using a for loop:
 
-Example
+```
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let fLen = fruits.length;
 
@@ -197,11 +197,13 @@ for (let i = 0; i < fLen; i++) {
   text += "<li>" + fruits[i] + "</li>";
 }
 text += "</ul>";
-Try it Yourself »
+```
 
-You can also use the Array.forEach() function:
+You can also use the `Array.forEach()` function:
 
-Example
+*Example*
+
+```
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 let text = "<ul>";
@@ -211,7 +213,7 @@ text += "</ul>";
 function myFunction(value) {
   text += "<li>" + value + "</li>";
 }
-Try it Yourself »
+```
 
 Adding Array Elements
 
