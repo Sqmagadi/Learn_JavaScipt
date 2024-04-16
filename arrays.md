@@ -58,38 +58,25 @@ cars[1]= "Volvo";
 cars[2]= "BMW";
 ```
 
-Using the JavaScript Keyword `new`
-
-The following example also creates an Array, and assigns values to it:
 
 
-`const cars = new Array("Saab", "Volvo", "BMW");`
 
-
-The two examples above do exactly the same.
-
-There is no need to use new Array().
-
-For simplicity, readability and execution speed, use the array literal method.
-
-
-ADVERTISEMENT
-
-Accessing Array Elements
+#### Accessing Array Elements
 
 You access an array element by referring to the index number:
 
+```
 const cars = ["Saab", "Volvo", "BMW"];
 let car = cars[0];
+```
 
-Try it Yourself »
 
 Note: Array indexes start with 0.
 
-[0] is the first element. [1] is the second element.
+`[0]` is the first element. `[1]` is the second element.
 
 
-Changing an Array Element
+#### Changing an Array Element
 
 This statement changes the value of the first element in cars:
 
