@@ -294,7 +294,7 @@ person[0];         // Will return undefined
 - You should use arrays when you want the element names to be numbers.
 
 
-JavaScript new Array()
+#### JavaScript new Array()
 
 JavaScript has a built-in array constructor new Array().
 
@@ -302,40 +302,48 @@ But you can safely use [] instead.
 
 These two different statements both create a new empty array named points:
 
+```
 const points = new Array();
 const points = [];
+```
 
 These two different statements both create a new array containing 6 numbers:
 
+```
 const points = new Array(40, 100, 1, 5, 25, 10);
 const points = [40, 100, 1, 5, 25, 10];
+```
 
-Try it Yourself »
 
 The new keyword can produce some unexpected results:
 
+```
 // Create an array with three elements:
 const points = new Array(40, 100, 1);
+```
 
-Try it Yourself »
+```
 // Create an array with two elements:
 const points = new Array(40, 100);
-Try it Yourself »
+```
+
+```
 // Create an array with one element ???
 const points = new Array(40);  
-Try it Yourself »
-A Common Error
-const points = [40];
+```
 
-is not the same as:
+**A Common Error**
 
-const points = new Array(40);
+`const points = [40];` is not the same as: `const points = new Array(40);`
+
+```
 // Create an array with one element:
 const points = [40];
-Try it Yourself »
+
 // Create an array with 40 undefined elements:
 const points = new Array(40);  
-Try it Yourself »
+```
+
 
 How to Recognize an Array
 
