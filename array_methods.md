@@ -1,24 +1,22 @@
-# JavaScript Array Methods	
+# JavaScript Array Methods
 
-Basic Array Methods	
-- Array length	
+- Array length
 - Array shift()
-- Array toString()	
+- Array toString()
 - Array unshift()
-- Array at()	
+- Array at()
 - Array delete()
-- Array join()	
+- Array join()
 - Array concat()
-- Array pop()	
+- Array pop()
 - Array copyWithin()
-- Array push()	
+- Array push()
 - Array flat()
 
-    
-#### JavaScript Array length	
-    
-The length property returns the length (size) of an array:	
-    
+#### JavaScript Array length
+
+The length property returns the length (size) of an array:
+
 *Example*
 
 ```
