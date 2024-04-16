@@ -1,16 +1,19 @@
-JavaScript Array Methods	
-❮ PreviousNext ❯	
+# JavaScript Array Methods	
+
 Basic Array Methods	
-Array length	Array shift()
-Array toString()	Array unshift()
-Array at()	Array delete()
-Array join()	Array concat()
-Array pop()	Array copyWithin()
-Array push()	Array flat()
-See Also:	Array splice()
-Search Methods	Array toSpliced()
-Sort Methods	Array slice()
-Iteration Methods	
+- Array length	
+- Array shift()
+- Array toString()	
+- Array unshift()
+- Array at()	
+- Array delete()
+- Array join()	
+- Array concat()
+- Array pop()	
+- Array copyWithin()
+- Array push()	
+- Array flat()
+
     
 JavaScript Array length	
     
