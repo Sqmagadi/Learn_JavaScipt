@@ -51,32 +51,29 @@ let fruit = fruits.at(2);
 ```
 
     
-Get the third element of fruits using []:	
-    
+**Get the third element of fruits using []:**
+
+```    
 const fruits = ["Banana", "Orange", "Apple", "Mango"];	
 let fruit = fruits[2];	
+ ```  
+
     
-Try it Yourself »	
+The `at()` method returns an indexed element from an array.	
     
-The at() method returns an indexed element from an array.	
+The `at()` method returns the same as `[]`.	
     
-The at() method returns the same as [].	
+The `at()` method is supported in all modern browsers since March 2022:	
     
-The at() method is supported in all modern browsers since March 2022:	
-    
-    
-    
-    
-Note	
-    
-Many languages allows negative bracket indexing like [-1] to access elements from the end of an object / array / string.	
+
+>Note: Many languages allows negative bracket indexing like [-1] to access elements from the end of an object / array / string.	
     
 This is not possible in JavaScript, because [] is used for accessing both arrays and objects. obj[-1] refers to the value of key -1, not to the last property of the object.	
     
 The at() method was introduced in ES2022 to solve this problem.	
     
     
-JavaScript Array join()	
+**JavaScript Array join()**	
     
 The join() method also joins all array elements into a string.	
     
