@@ -160,25 +160,29 @@ The real strength of JavaScript arrays are the built-in array properties and met
 
 The length property of an array returns the length of an array (the number of array elements).
 
-Example
+*Example*
+
+```
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let length = fruits.length;
-Try it Yourself »
+```
 
 The length property is always one more than the highest array index.
 
 
-Accessing the First Array Element
-Example
+**Accessing the First Array Element**
+
+```
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let fruit = fruits[0];
-Try it Yourself »
+```
 
-Accessing the Last Array Element
-Example
+**Accessing the Last Array Element**
+
+```
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let fruit = fruits[fruits.length - 1];
-Try it Yourself »
+```
 
 Looping Array Elements
 
