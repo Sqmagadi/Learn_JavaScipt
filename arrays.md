@@ -215,32 +215,35 @@ function myFunction(value) {
 }
 ```
 
-Adding Array Elements
+### Adding Array Elements
 
 The easiest way to add a new element to an array is using the push() method:
 
-Example
+*Example*
+
+```
 const fruits = ["Banana", "Orange", "Apple"];
 fruits.push("Lemon");  // Adds a new element (Lemon) to fruits
-Try it Yourself »
+```
 
 New element can also be added to an array using the length property:
 
-Example
+```
 const fruits = ["Banana", "Orange", "Apple"];
 fruits[fruits.length] = "Lemon";  // Adds "Lemon" to fruits
-Try it Yourself »
+```
 
-WARNING !
 
-Adding elements with high indexes can create undefined "holes" in an array:
+> Note: Adding elements with high indexes can create undefined "holes" in an array:
 
-Example
+*Example*
+
+```
 const fruits = ["Banana", "Orange", "Apple"];
 fruits[6] = "Lemon";  // Creates undefined "holes" in fruits
-Try it Yourself »
+```
 
-Associative Arrays
+### Associative Arrays
 
 Many programming languages support arrays with named indexes.
 
