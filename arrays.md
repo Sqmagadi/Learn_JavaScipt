@@ -80,23 +80,27 @@ Note: Array indexes start with 0.
 
 This statement changes the value of the first element in cars:
 
-cars[0] = "Opel";
-Example
+`cars[0] = "Opel";`
+
+```
 const cars = ["Saab", "Volvo", "BMW"];
 cars[0] = "Opel";
-Try it Yourself »
+```
 
-Converting an Array to a String
+#### Converting an Array to a String
 
-The JavaScript method toString() converts an array to a string of (comma separated) array values.
+The JavaScript method `toString()` converts an array to a string of (comma separated) array values.
 
-Example
+*Example*
+
+```
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 document.getElementById("demo").innerHTML = fruits.toString();
+```
 
-Result:
+**Output**
 
-Banana,Orange,Apple,Mango
+`Banana,Orange,Apple,Mango`
 
 Try it Yourself »
 
