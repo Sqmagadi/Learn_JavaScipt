@@ -1,25 +1,24 @@
-JavaScript Date Objects
-❮ PreviousNext ❯
-
+# JavaScript Date Objects
 
 JavaScript Date Objects let us work with dates:
 
 
+`Year: 2024 Month: 3 Day: 25 Hours: 16 Minutes: 40 Seconds: 48`
 
-Year: 2024 Month: 3 Day: 25 Hours: 16 Minutes: 40 Seconds: 48
-Examples
+*Examples*
+
+```
 const d = new Date();
 Try it Yourself »
 const d = new Date("2022-03-25");
-Try it Yourself »
-Note
+```
 
-Date objects are static. The "clock" is not "running".
+> Note: Date objects are static. The "clock" is not "running".
 
-The computer clock is ticking, date objects are not.
+>The computer clock is ticking, date objects are not.
 
 
-JavaScript Date Output
+**JavaScript Date Output**
 
 By default, JavaScript will use the browser's time zone and display a date as a full text string:
 
