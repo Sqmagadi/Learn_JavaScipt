@@ -174,34 +174,29 @@ new Date(milliseconds)
 
 new Date(milliseconds) creates a new date object as milliseconds plus zero time:
 
-Examples
+*Examples*
 
 01 January 1970 plus 100 000 000 000 milliseconds is:
 
-const d = new Date(100000000000);
-Try it Yourself »
+`const d = new Date(100000000000);`
 
 January 01 1970 minus 100 000 000 000 milliseconds is:
 
-const d = new Date(-100000000000);
-Try it Yourself »
+`const d = new Date(-100000000000);`
 
 January 01 1970 plus 24 hours is:
 
+```
 const d = new Date(24 * 60 * 60 * 1000);
 // or
 const d = new Date(86400000);
-
-Try it Yourself »
+```
 
 01 January 1970 plus 0 milliseconds is:
 
-const d = new Date(0);
-Try it Yourself »
+`const d = new Date(0);`
 
-ADVERTISEMENT
-
-Date Methods
+**Date Methods**
 
 When a date object is created, a number of methods allow you to operate on it.
 
