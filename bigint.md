@@ -119,30 +119,22 @@ Rounding can compromise program security:
 
 `9007199254740992 === 9007199254740993; // is true !!!`
 
-
-Browser Support
-
-BigInt is supported in all browsers since September 2020:
-
-
-
-
-
-
-
-Minimum and Maximum Safe Integers
+**Minimum and Maximum Safe Integers**
 
 ES6 added max and min properties to the Number object:
 
 MAX_SAFE_INTEGER
+
 MIN_SAFE_INTEGER
 
-MAX_SAFE_INTEGER Example
-let x = Number.MAX_SAFE_INTEGER;
-Try it Yourself »
-MIN_SAFE_INTEGER Example
-let x = Number.MIN_SAFE_INTEGER;
-Try it Yourself »
+*MAX_SAFE_INTEGER Example*
+
+`let x = Number.MAX_SAFE_INTEGER;`
+
+*MIN_SAFE_INTEGER Example*
+
+`let x = Number.MIN_SAFE_INTEGER;`
+
 
 New Number Methods
 
