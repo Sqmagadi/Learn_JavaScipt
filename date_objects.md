@@ -49,21 +49,23 @@ new Date(milliseconds)
 
 **JavaScript new Date()**
 
-new Date() creates a date object with the current date and time:
+`new Date()` creates a date object with the current date and time:
 
-Example
-const d = new Date();
-Try it Yourself »
+*Example*
 
-new Date(date string)
+`const d = new Date();`
+
+
+**new Date(date string)**
 
 new Date(date string) creates a date object from a date string:
 
-Examples
-const d = new Date("October 13, 2014 11:13:00");
-Try it Yourself »
-const d = new Date("2022-03-25");
-Try it Yourself »
+*Examples*
+
+`const d = new Date("October 13, 2014 11:13:00");`
+
+`const d = new Date("2022-03-25")`;
+
 
 Date string formats are described in the next chapter.
 
