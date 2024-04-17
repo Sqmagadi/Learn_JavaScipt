@@ -99,23 +99,26 @@ let x = 5n;
 let y = Number(x) / 2;
 ```
 
-BigInt Hex, Octal and Binary
+**BigInt Hex, Octal and Binary**
 
 BigInt can also be written in hexadecimal, octal, or binary notation:
 
-BigInt Hex Example
+*BigInt Hex Example*
+
+```
 let hex = 0x20000000000003n;
 let oct = 0o400000000000000003n;
 let bin = 0b100000000000000000000000000000000000000000000000000011n;
-Try it Yourself »
+```
 
-Precision Curiosity
+**Precision Curiosity**
 
 Rounding can compromise program security:
 
-MAX_SAFE_INTEGER Example
-9007199254740992 === 9007199254740993; // is true !!!
-Try it Yourself »
+*MAX_SAFE_INTEGER Example*
+
+`9007199254740992 === 9007199254740993; // is true !!!`
+
 
 Browser Support
 
