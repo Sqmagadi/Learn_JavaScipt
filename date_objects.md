@@ -66,22 +66,18 @@ new Date(date string) creates a date object from a date string:
 
 `const d = new Date("2022-03-25")`;
 
-
-Date string formats are described in the next chapter.
-
-
 new Date(year, month, ...)
 
 new Date(year, month, ...) creates a date object with a specified date and time.
 
 7 numbers specify year, month, day, hour, minute, second, and millisecond (in that order):
 
-Example
-const d = new Date(2018, 11, 24, 10, 33, 30, 0);
-Try it Yourself »
-Note
+*Example*
 
-JavaScript counts months from 0 to 11:
+`const d = new Date(2018, 11, 24, 10, 33, 30, 0);`
+
+>Note: JavaScript counts months from 0 to 11:
+
 
 January = 0.
 
@@ -91,41 +87,38 @@ Specifying a month higher than 11, will not result in an error but add the overf
 
 Specifying:
 
-const d = new Date(2018, 15, 24, 10, 33, 30);
+`const d = new Date(2018, 15, 24, 10, 33, 30);`
 
-Try it Yourself »
 
 Is the same as:
 
-const d = new Date(2019, 3, 24, 10, 33, 30);
+`const d = new Date(2019, 3, 24, 10, 33, 30);`
 
-Try it Yourself »
+
 
 Specifying a day higher than max, will not result in an error but add the overflow to the next month:
 
 Specifying:
 
-const d = new Date(2018, 5, 35, 10, 33, 30);
+`const d = new Date(2018, 5, 35, 10, 33, 30);`
 
 Is the same as:
 
-const d = new Date(2018, 6, 5, 10, 33, 30);
-
-Try it Yourself »
+`const d = new Date(2018, 6, 5, 10, 33, 30);`
 
 Using 6, 4, 3, or 2 Numbers
 
 6 numbers specify year, month, day, hour, minute, second:
 
-Example
-const d = new Date(2018, 11, 24, 10, 33, 30);
-Try it Yourself »
+*Example*
+
+`const d = new Date(2018, 11, 24, 10, 33, 30);`
 
 5 numbers specify year, month, day, hour, and minute:
 
-Example
-const d = new Date(2018, 11, 24, 10, 33);
-Try it Yourself »
+*Example*
+
+`const d = new Date(2018, 11, 24, 10, 33);`
 
 4 numbers specify year, month, day, and hour:
 
