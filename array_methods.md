@@ -97,21 +97,20 @@ This is what popping and pushing is:
     
 Popping items out of an array, or pushing items into an array.	
     
-    
 
+**JavaScript Array pop()**
     
-JavaScript Array pop()	
+The pop() method removes the last element from an array:
     
-The pop() method removes the last element from an array:	
-    
-Example	
+*Example*
+
 const fruits = ["Banana", "Orange", "Apple", "Mango"];	
-fruits.pop();	
-Try it Yourself »	
+fruits.pop();
+
     
 The pop() method returns the value that was "popped out":	
     
-Example	
+*Example*	
 const fruits = ["Banana", "Orange", "Apple", "Mango"];	
 let fruit = fruits.pop();	
 Try it Yourself »	
