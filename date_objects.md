@@ -122,21 +122,23 @@ Using 6, 4, 3, or 2 Numbers
 
 4 numbers specify year, month, day, and hour:
 
-Example
-const d = new Date(2018, 11, 24, 10);
-Try it Yourself »
+*Example*
+
+`const d = new Date(2018, 11, 24, 10);`
+
 
 3 numbers specify year, month, and day:
 
-Example
-const d = new Date(2018, 11, 24);
-Try it Yourself »
+*Example*
+
+`const d = new Date(2018, 11, 24);`
+
 
 2 numbers specify year and month:
 
-Example
-const d = new Date(2018, 11);
-Try it Yourself »
+*Example*
+`const d = new Date(2018, 11);`
+
 
 You cannot omit month. If you supply only one parameter it will be treated as milliseconds.
 
