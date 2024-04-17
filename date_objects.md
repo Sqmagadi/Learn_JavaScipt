@@ -142,22 +142,24 @@ Using 6, 4, 3, or 2 Numbers
 
 You cannot omit month. If you supply only one parameter it will be treated as milliseconds.
 
-Example
-const d = new Date(2018);
-Try it Yourself »
+*Example*
 
-Previous Century
+`const d = new Date(2018);`
+
+**Previous Century**
 
 One and two digit years will be interpreted as 19xx:
 
-Example
-const d = new Date(99, 11, 24);
-Try it Yourself »
-Example
-const d = new Date(9, 11, 24);
-Try it Yourself »
+*Example*
 
-JavaScript Stores Dates as Milliseconds
+`const d = new Date(99, 11, 24);`
+
+*Example*
+
+`const d = new Date(9, 11, 24);`
+
+
+**JavaScript Stores Dates as Milliseconds**
 
 JavaScript stores dates as number of milliseconds since January 01, 1970.
 
