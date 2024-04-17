@@ -33,22 +33,24 @@ Integer values outside this range lose precision.
 
 To create a BigInt, append n to the end of an integer or call BigInt():
 
-Examples
+*Examples*
+
+```
 let x = 9999999999999999;
 let y = 9999999999999999n;
 Try it Yourself »
 let x = 1234567890123456789012345n;
 let y = BigInt(1234567890123456789012345)
-Try it Yourself »
+```
 
-BigInt: A new JavaScript Datatype
+**BigInt: A new JavaScript Datatype**
 
 The JavaScript typeof a BigInt is "bigint":
 
-Example
+```
 let x = BigInt(999999999999999);
 let type = typeof x;
-Try it Yourself »
+```
 
 BigInt is the second numeric data type in JavaScript (after Number).
 
