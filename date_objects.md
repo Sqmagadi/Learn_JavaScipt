@@ -202,37 +202,42 @@ When a date object is created, a number of methods allow you to operate on it.
 
 Date methods allow you to get and set the year, month, day, hour, minute, second, and millisecond of date objects, using either local time or UTC (universal, or GMT) time.
 
-Date methods and time zones are covered in the next chapters.
 
-
-Displaying Dates
+**Displaying Dates**
 
 JavaScript will (by default) output dates using the toString() method. This is a string representation of the date, including the time zone. The format is specified in the ECMAScript specification:
 
-Example
+*Example*
+
 Mon Mar 25 2024 16:40:48 GMT+0300 (East Africa Time)
-Try it Yourself »
+
 
 When you display a date object in HTML, it is automatically converted to a string, with the toString() method.
 
-Example
+*Example*
+
+```
 const d = new Date();
 d.toString();
-Try it Yourself »
+```
 
 The toDateString() method converts a date to a more readable format:
 
-Example
+*Example*
+
+```
 const d = new Date();
 d.toDateString();
-Try it Yourself »
+```
 
 The toUTCString() method converts a date to a string using the UTC standard:
 
-Example
+*Example*
+
+```
 const d = new Date();
 d.toUTCString();
-Try it Yourself »
+```
 
 The toISOString() method converts a date to a string using the ISO standard:
 
