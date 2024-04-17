@@ -136,22 +136,25 @@ MIN_SAFE_INTEGER
 `let x = Number.MIN_SAFE_INTEGER;`
 
 
-New Number Methods
+**New Number Methods**
 
 ES6 also added 2 new methods to the Number object:
 
 Number.isInteger()
+
 Number.isSafeInteger()
 
 
-The Number.isInteger() Method
+**The Number.isInteger() Method**
 
 The Number.isInteger() method returns true if the argument is an integer.
 
-Example: isInteger()
+*Example: isInteger()*
+
+```
 Number.isInteger(10);
 Number.isInteger(10.5);
-Try it Yourself »
+```
 
 The Number.isSafeInteger() Method
 
