@@ -13,7 +13,7 @@
 - Array push()
 - Array flat()
 
-#### JavaScript Array length
+### JavaScript Array length
 
 The length property returns the length (size) of an array:
 
@@ -34,10 +34,10 @@ The JavaScript method `toString()` converts an array to a string of (comma sep
 const fruits = ["Banana", "Orange", "Apple", "Mango"];	
 document.getElementById("demo").innerHTML = fruits.toString();	
 ```
+
 Result:	
 Banana,Orange,Apple,Mango	
     
-
     
 **JavaScript Array at()**	
 
@@ -98,7 +98,7 @@ This is what popping and pushing is:
 Popping items out of an array, or pushing items into an array.	
     
     
-ADVERTISEMENT	
+
     
 JavaScript Array pop()	
     
