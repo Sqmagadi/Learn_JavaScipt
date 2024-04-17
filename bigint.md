@@ -1,16 +1,18 @@
-JavaScript BigInt
-❮ PreviousNext ❯
+# JavaScript BigInt
+
 
 JavaScript BigInt variables are used to store big integer values that are too big to be represented by a normal JavaScript Number.
 
-JavaScript Integer Accuracy
+*JavaScript Integer Accuracy*
 
 JavaScript integers are only accurate up to 15 digits:
 
 Integer Precision
+
+```
 let x = 999999999999999;
 let y = 9999999999999999;
-Try it Yourself »
+```
 
 In JavaScript, all numbers are stored in a 64-bit floating-point format (IEEE 754 standard).
 
@@ -18,16 +20,16 @@ With this standard, large integer cannot be exactly represented and will be roun
 
 Because of this, JavaScript can only safely represent integers:
 
-Up to 9007199254740991 +(253-1)
+**Up to 9007199254740991 +(253-1)**
 
 and
 
-Down to -9007199254740991 -(253-1).
+**Down to -9007199254740991 -(253-1).**
 
 Integer values outside this range lose precision.
 
 
-How to Create a BigInt
+*How to Create a BigInt*
 
 To create a BigInt, append n to the end of an integer or call BigInt():
 
