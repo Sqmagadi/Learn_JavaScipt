@@ -27,12 +27,13 @@ Mon Mar 25 2024 16:40:48 GMT+0300 (East Africa Time)
 You will learn much more about how to display dates, later in this tutorial.
 
 
-Creating Date Objects
+**Creating Date Objects**
 
 Date objects are created with the new Date() constructor.
 
 There are 9 ways to create a new date object:
 
+```
 new Date()
 new Date(date string)
 
@@ -44,9 +45,9 @@ new Date(year,month,day,hours,minutes,seconds)
 new Date(year,month,day,hours,minutes,seconds,ms)
 
 new Date(milliseconds)
+```
 
-
-JavaScript new Date()
+**JavaScript new Date()**
 
 new Date() creates a date object with the current date and time:
 
