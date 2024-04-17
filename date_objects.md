@@ -239,9 +239,11 @@ const d = new Date();
 d.toUTCString();
 ```
 
-The toISOString() method converts a date to a string using the ISO standard:
+The `toISOString()` method converts a date to a string using the ISO standard:
 
-Example
+*Example*
+
+```
 const d = new Date();
 d.toISOString();
-
+```
