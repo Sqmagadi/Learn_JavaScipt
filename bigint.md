@@ -66,33 +66,38 @@ With BigInt the total number of supported data types in JavaScript is 8:
 8. Object
 
 
-BigInt Operators
+**BigInt Operators**
 
 Operators that can be used on a JavaScript Number can also be used on a BigInt.
 
-BigInt Multiplication Example
+BigInt Multiplication 
+
+*Example*
+
+```
 let x = 9007199254740995n;
 let y = 9007199254740995n;
 let z = x * y;
-Try it Yourself »
-Notes
+```
 
-Arithmetic between a BigInt and a Number is not allowed (type conversion lose information).
+>Notes: Arithmetic between a BigInt and a Number is not allowed (type conversion lose information).
 
-Unsigned right shift (>>>) can not be done on a BigInt (it does not have a fixed width).
+Unsigned right shift (`>>>`) can not be done on a BigInt (it does not have a fixed width).
 
 
-BigInt Decimals
+**BigInt Decimals**
 
 A BigInt can not have decimals.
 
-BigInt Division Example
+*BigInt Division Example*
+
+```
 let x = 5n;
 let y = x / 2;
 // Error: Cannot mix BigInt and other types, use explicit conversion.
 let x = 5n;
 let y = Number(x) / 2;
-Try it Yourself »
+```
 
 BigInt Hex, Octal and Binary
 
