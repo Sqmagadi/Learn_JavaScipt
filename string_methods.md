@@ -288,26 +288,25 @@ Strings are immutable: Strings cannot be changed, only replaced.
 
 The trim() method removes whitespace from both sides of a string:
 
-Example
+*Example*
+
+```
 let text1 = "      Hello World!      ";
 let text2 = text1.trim();
-Try it Yourself »
+```
 
-JavaScript String trimStart()
+**JavaScript String trimStart()**
 
 ECMAScript 2019 added the String method trimStart() to JavaScript.
 
 The trimStart() method works like trim(), but removes whitespace only from the start of a string.
 
-Example
+*Example*
+
+```
 let text1 = "     Hello World!     ";
 let text2 = text1.trimStart();
-Try it Yourself »
-
-JavaScript String trimStart() is supported in all modern browsers since January 2020:
-
-
-
+```
 
 
 JavaScript String trimEnd()
