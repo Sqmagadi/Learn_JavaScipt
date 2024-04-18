@@ -309,71 +309,56 @@ let text2 = text1.trimStart();
 ```
 
 
-JavaScript String trimEnd()
+**JavaScript String trimEnd()**
 
 ECMAScript 2019 added the string method trimEnd() to JavaScript.
 
 The trimEnd() method works like trim(), but removes whitespace only from the end of a string.
 
-Example
+*Example*
+
+```
 let text1 = "     Hello World!     ";
 let text2 = text1.trimEnd();
-Try it Yourself »
+```
 
 JavaScript String trimEnd() is supported in all modern browsers since January 2020:
 
 
-
-
-
-JavaScript String Padding
+**JavaScript String Padding**
 
 ECMAScript 2017 added two new string methods to JavaScript: padStart() and padEnd() to support padding at the beginning and at the end of a string.
 
 
-JavaScript String padStart()
+**JavaScript String padStart()**
 
 The padStart() method pads a string from the start.
 
 It pads a string with another string (multiple times) until it reaches a given length.
 
-Examples
+*Examples*
 
 Pad a string with "0" until it reaches the length 4:
 
 let text = "5";
 let padded = text.padStart(4,"0");
 
-Try it Yourself »
-
 Pad a string with "x" until it reaches the length 4:
 
 let text = "5";
 let padded = text.padStart(4,"x");
 
-Try it Yourself »
-Note
 
+Note: 
 The padStart() method is a string method.
 
 To pad a number, convert the number to a string first.
 
-See the example below.
+*Example*
 
-Example
 let numb = 5;
 let text = numb.toString();
 let padded = text.padStart(4,"0");
-Try it Yourself »
-Browser Support
-
-padStart() is an ECMAScript 2017 feature.
-
-ES2017 is supported in all modern browsers since September 2017:
-
-
-
-
 
 padStart() is not supported in Internet Explorer.
 
