@@ -1,84 +1,97 @@
-JavaScript String Search	
-❮ PreviousNext ❯	
-String Search Methods	
-String indexOf()	String match()
-String lastIndexOf()	String matchAll()
-String search()	String includes()
-See Also:	String startsWith()
-Basic String Methods	String endsWith()
-String Templates	
-JavaScript String indexOf()	
+# JavaScript String Search
+
+**String Search Methods**
+
+- String indexOf()
+- String match()
+- String lastIndexOf()
+- String matchAll()
+- String search()
+- String includes()
+
+**String Templates**
+
+*JavaScript String indexOf()*
     
 The indexOf() method returns the index (position) of the first occurrence of a string in a string, or it returns -1 if the string is not found:	
     
-Example	
+*Example*
+
+```
 let text = "Please locate where 'locate' occurs!";	
 let index = text.indexOf("locate");	
-Try it Yourself »	
-Note	
+```
+	
+Note:     
+JavaScript counts positions from zero.
     
-JavaScript counts positions from zero.	
-    
-0 is the first position in a string, 1 is the second, 2 is the third, ...	
+0 is the first position in a string, 1 is the second, 2 is the third, ...
     
     
-JavaScript String lastIndexOf()	
+*JavaScript String lastIndexOf()*
     
 The lastIndexOf() method returns the index of the last occurrence of a specified text in a string:	
     
-Example	
+*Example*
+
+```
 let text = "Please locate where 'locate' occurs!";	
 let index = text.lastIndexOf("locate");	
-Try it Yourself »	
+```
     
 Both indexOf(), and lastIndexOf() return -1 if the text is not found:	
     
-Example	
+*Example*
+
+```
 let text = "Please locate where 'locate' occurs!";	
 let index = text.lastIndexOf("John");	
-Try it Yourself »	
+```
     
 Both methods accept a second parameter as the starting position for the search:	
     
-Example	
+*Example*
+
+```
 let text = "Please locate where 'locate' occurs!";	
 let index = text.indexOf("locate", 15);	
-Try it Yourself »	
+```
     
-The lastIndexOf() methods searches backwards (from the end to the beginning), meaning: if the second parameter is 15, the search starts at position 15, and searches to the beginning of the string.	
+The lastIndexOf() methods searches backwards (from the end to the beginning), meaning: if the second parameter is 15, the search starts at position 15, and searches to the beginning of the string.
     
-Example	
+*Example*
+
+```
 let text = "Please locate where 'locate' occurs!";	
 text.lastIndexOf("locate", 15);	
-Try it Yourself »	
+```
     
-JavaScript String search()	
+*JavaScript String search()*
     
 The search() method searches a string for a string (or a regular expression) and returns the position of the match:	
     
-Examples	
+*Examples*
+
+```
 let text = "Please locate where 'locate' occurs!";	
 text.search("locate");	
-Try it Yourself »	
+
 let text = "Please locate where 'locate' occurs!";	
 text.search(/locate/);	
-Try it Yourself »	
-    
-Did You Notice?	
-    
-The two methods, indexOf() and search(), are equal?	
-    
+```
+
 They accept the same arguments (parameters), and return the same value?	
     
 The two methods are NOT equal. These are the differences:	
     
-The search() method cannot take a second start position argument.	
+The search() method cannot take a second start position argument.
+
 The indexOf() method cannot take powerful search values (regular expressions).	
     
 You will learn more about regular expressions in a later chapter.	
     
     
-ADVERTISEMENT	
+
     
 JavaScript String match()	
     
