@@ -496,31 +496,27 @@ text = text.replaceAll(/cats/g,"dogs");
 ```
 
 
-Converting a String to an Array
+**Converting a String to an Array**
 
 If you want to work with a string as an array, you can convert it to an array.
 
-JavaScript String split()
+**JavaScript String split()**
 
 A string can be converted to an array with the split() method:
 
-Example
+*Example*
+
+```
 text.split(",")    // Split on commas
 text.split(" ")    // Split on spaces
 text.split("|")    // Split on pipe
-Try it Yourself »
+```
 
 If the separator is omitted, the returned array will contain the whole string in index [0].
 
 If the separator is "", the returned array will be an array of single characters:
 
-Example
-text.split("")
-Try it Yourself »
-Complete String Reference
+*Example*
 
-For a complete String reference, go to our:
+`text.split("")`
 
-Complete JavaScript String Reference.
-
-The reference contains descriptions and examples of all string properties and methods.
