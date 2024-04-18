@@ -256,27 +256,31 @@ let text1 = "Hello World!";       // String
 let text2 = text1.toLowerCase();  // text2 is text1 converted to lower
 ```
 
-JavaScript String concat()
+**JavaScript String concat()**
 
 concat() joins two or more strings:
 
-Example
+*Example*
+
+```
 let text1 = "Hello";
 let text2 = "World";
 let text3 = text1.concat(" ", text2);
-Try it Yourself »
+```
 
 The concat() method can be used instead of the plus operator. These two lines do the same:
 
-Example
+*Example*
+
+```
 text = "Hello" + " " + "World!";
 text = "Hello".concat(" ", "World!");
-Note
+```
 
+Note: 
 All string methods return a new string. They don't modify the original string.
 
 Formally said:
-
 Strings are immutable: Strings cannot be changed, only replaced.
 
 
