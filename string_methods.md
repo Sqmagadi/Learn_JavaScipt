@@ -391,7 +391,7 @@ let text = numb.toString();
 let padded = text.padEnd(4,"0");
 
 
-JavaScript String repeat()
+**JavaScript String repeat()**
 
 The repeat() method returns a string with a number of copies of a string.
 
@@ -399,40 +399,17 @@ The repeat() method returns a new string.
 
 The repeat() method does not change the original string.
 
-Examples
+*Examples*
 
 Create copies of a text:
 
+```
 let text = "Hello world!";
 let result = text.repeat(2);
 
-Try it Yourself »
 let text = "Hello world!";
 let result = text.repeat(4);
-Try it Yourself »
-Syntax
-string.repeat(count)
-Parameters
-
-Parameter
-count
-
-Return Value
-
-Type
-String
-
-Browser Support
-
-repeat() is an ES6 feature (JavaScript 2015).
-
-ES6 is fully supported in all modern browsers since June 2017:
-
-
-
-
-
-repeat() is not supported in Internet Explorer.
+```
 
 
 Replacing String Content
