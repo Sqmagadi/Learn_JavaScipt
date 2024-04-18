@@ -469,8 +469,7 @@ let newText = text.replace(/Microsoft/g, "W3Schools");
 ```
 
 
-Note
-
+Note:
 You will learn a lot more about regular expressions in the chapter JavaScript Regular Expressions.
 
 
