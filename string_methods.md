@@ -363,43 +363,32 @@ let padded = text.padStart(4,"0");
 padStart() is not supported in Internet Explorer.
 
 
-JavaScript String padEnd()
+**JavaScript String padEnd()**
 
 The padEnd() method pads a string from the end.
 
 It pads a string with another string (multiple times) until it reaches a given length.
 
-Examples
+*Examples*
+
+```
 let text = "5";
 let padded = text.padEnd(4,"0");
-Try it Yourself »
+
 let text = "5";
 let padded = text.padEnd(4,"x");
-Try it Yourself »
-Note
+```
 
+Note: 
 The padEnd() method is a string method.
 
 To pad a number, convert the number to a string first.
 
-See the example below.
+*Example*
 
-Example
 let numb = 5;
 let text = numb.toString();
 let padded = text.padEnd(4,"0");
-Try it Yourself »
-Browser Support
-
-padEnd() is an ECMAScript 2017 feature.
-
-ES2017 is supported in all modern browsers since September 2017:
-
-
-
-
-
-padEnd() is not supported in Internet Explorer.
 
 
 JavaScript String repeat()
