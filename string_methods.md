@@ -284,7 +284,7 @@ Formally said:
 Strings are immutable: Strings cannot be changed, only replaced.
 
 
-JavaScript String trim()
+**JavaScript String trim()**
 
 The trim() method removes whitespace from both sides of a string:
 
