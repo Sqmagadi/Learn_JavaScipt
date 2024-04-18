@@ -473,28 +473,27 @@ Note:
 You will learn a lot more about regular expressions in the chapter JavaScript Regular Expressions.
 
 
-JavaScript String ReplaceAll()
+*JavaScript String ReplaceAll()*
 
 In 2021, JavaScript introduced the string method replaceAll():
 
-Example
+*Example*
+
+```
 text = text.replaceAll("Cats","Dogs");
 text = text.replaceAll("cats","dogs");
-Try it Yourself »
+```
 
 The replaceAll() method allows you to specify a regular expression instead of a string to be replaced.
 
 If the parameter is a regular expression, the global flag (g) must be set, otherwise a TypeError is thrown.
 
-Example
+*Example*
+
+```
 text = text.replaceAll(/Cats/g,"Dogs");
 text = text.replaceAll(/cats/g,"dogs");
-Try it Yourself »
-Note
-
-replaceAll() is an ES2021 feature.
-
-replaceAll() does not work in Internet Explorer.
+```
 
 
 Converting a String to an Array
