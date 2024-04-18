@@ -1,22 +1,21 @@
-JavaScript Template Strings
-❮ PreviousNext ❯
-String Templates
-Template Strings
-Template Literals
+# JavaScript Template Strings
 
-Beloved child has many names
+String Templates
+
+Template Strings
+
+Template Literals
 
 Back-Tics Syntax
 
 Template Strings use back-ticks (``) rather than the quotes ("") to define a string:
 
-Example
-let text = `Hello World!`;
+*Example*
 
-Try it Yourself »
+`let text = `Hello World!`;`
 
 
-Quotes Inside Strings
+**Quotes Inside Strings**
 
 Template Strings allow both single and double quotes inside a string:
 
