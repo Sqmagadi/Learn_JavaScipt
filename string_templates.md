@@ -80,12 +80,15 @@ let VAT = 0.25;
 let total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
 ```
 
-
 Automatic replacing of expressions with real values is called string interpolation.
 
 
-HTML Templates
-Example
+**HTML Templates**
+
+
+*Example*
+
+```
 let header = "Template Strings";
 let tags = ["template strings", "javascript", "es6"];
 
@@ -95,5 +98,4 @@ for (const x of tags) {
 }
 
 html += `</ul>`;
-
-Try it Yourself »
+```
