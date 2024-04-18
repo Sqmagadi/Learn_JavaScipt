@@ -231,24 +231,30 @@ let str = "Apple, Banana, Kiwi";
 let part = str.substr(-4);
 ```
 
-Converting to Upper and Lower Case
+**Converting to Upper and Lower Case**
 
 A string is converted to upper case with toUpperCase():
 
 A string is converted to lower case with toLowerCase():
 
 
-JavaScript String toUpperCase()
-Example
+**JavaScript String toUpperCase()**
+
+*Example*
+
+```
 let text1 = "Hello World!";
 let text2 = text1.toUpperCase();
-Try it Yourself »
+```
 
-JavaScript String toLowerCase()
-Example
+**JavaScript String toLowerCase()**
+
+*Example*
+
+```
 let text1 = "Hello World!";       // String
 let text2 = text1.toLowerCase();  // text2 is text1 converted to lower
-Try it Yourself »
+```
 
 JavaScript String concat()
 
