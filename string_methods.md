@@ -215,17 +215,21 @@ let part = str.substr(7, 6);
 
 If you omit the second parameter, substr() will slice out the rest of the string.
 
-Example
+*Example*
+
+```
 let str = "Apple, Banana, Kiwi";
 let part = str.substr(7);
-Try it Yourself »
+```
 
 If the first parameter is negative, the position counts from the end of the string.
 
-Example
+*Example*
+
+```
 let str = "Apple, Banana, Kiwi";
 let part = str.substr(-4);
-Try it Yourself »
+```
 
 Converting to Upper and Lower Case
 
