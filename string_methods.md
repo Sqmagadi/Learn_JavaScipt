@@ -184,9 +184,7 @@ let part = text.slice(-12, -6);
 ```
 
 
-
-
-JavaScript String substring()
+**JavaScript String substring()**
 
 substring() is similar to slice().
 
