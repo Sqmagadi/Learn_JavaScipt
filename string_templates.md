@@ -48,36 +48,38 @@ The method is called string interpolation.
 
 The syntax is:
 
-${...}
+`${...}`
 
-ADVERTISEMENT
 
-Variable Substitutions
+**Variable Substitutions**
 
 Template Strings allow variables in strings:
 
-Example
+*Example*
+
+```
 let firstName = "John";
 let lastName = "Doe";
 
 let text = `Welcome ${firstName}, ${lastName}!`;
-
-Try it Yourself »
+```
 
 Automatic replacing of variables with real values is called string interpolation.
 
 
-Expression Substitution
+**Expression Substitution**
 
 Template Strings allow expressions in strings:
 
-Example
+*Example*
+
+```
 let price = 10;
 let VAT = 0.25;
 
 let total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
+```
 
-Try it Yourself »
 
 Automatic replacing of expressions with real values is called string interpolation.
 
