@@ -19,27 +19,28 @@ Template Strings use back-ticks (``) rather than the quotes ("") to define a st
 
 Template Strings allow both single and double quotes inside a string:
 
-Example
+*Example*
+
 let text = `He's often called "Johnny"`;
 
-Try it Yourself »
 
-
-Multiline Strings
+**Multiline Strings**
 
 Template Strings allow multiline strings:
 
-Example
+*Example*
+
+```
 let text =
 `The quick
 brown fox
 jumps over
 the lazy dog`;
+```
 
-Try it Yourself »
 
 
-Interpolation
+**Interpolation**
 
 Template String provide an easy way to interpolate variables and expressions into strings.
 
