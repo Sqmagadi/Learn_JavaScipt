@@ -190,24 +190,28 @@ substring() is similar to slice().
 
 The difference is that start and end values less than 0 are treated as 0 in substring().
 
-Example
+*Example*
+
+```
 let str = "Apple, Banana, Kiwi";
 let part = str.substring(7, 13);
-Try it Yourself »
+```
 
 If you omit the second parameter, substring() will slice out the rest of the string.
 
 
-JavaScript String substr()
+**JavaScript String substr()**
 
 substr() is similar to slice().
 
 The difference is that the second parameter specifies the length of the extracted part.
 
-Example
+*Example*
+
+```
 let str = "Apple, Banana, Kiwi";
 let part = str.substr(7, 6);
-Try it Yourself »
+```
 
 If you omit the second parameter, substr() will slice out the rest of the string.
 
