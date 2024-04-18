@@ -412,16 +412,17 @@ let result = text.repeat(4);
 ```
 
 
-Replacing String Content
+**Replacing String Content**
 
 The replace() method replaces a specified value with another value in a string:
 
-Example
+*Example*
+
 let text = "Please visit Microsoft!";
 let newText = text.replace("Microsoft", "W3Schools");
-Try it Yourself »
-Note
 
+
+Note: 
 The replace() method does not change the string it is called on.
 
 The replace() method returns a new string.
@@ -432,39 +433,41 @@ If you want to replace all matches, use a regular expression with the /g flag se
 
 By default, the replace() method replaces only the first match:
 
-Example
+*Example*
+
 let text = "Please visit Microsoft and Microsoft!";
 let newText = text.replace("Microsoft", "W3Schools");
 
-Try it Yourself »
-
 By default, the replace() method is case sensitive. Writing MICROSOFT (with upper-case) will not work:
 
-Example
+*Example*
+
+```
 let text = "Please visit Microsoft!";
 let newText = text.replace("MICROSOFT", "W3Schools");
-
-Try it Yourself »
+```
 
 To replace case insensitive, use a regular expression with an /i flag (insensitive):
 
-Example
+*Example*
+
+```
 let text = "Please visit Microsoft!";
 let newText = text.replace(/MICROSOFT/i, "W3Schools");
+```
 
-Try it Yourself »
-
-Note
-
+Note: 
 Regular expressions are written without quotes.
 
 To replace all matches, use a regular expression with a /g flag (global match):
 
-Example
+*Example*
+
+```
 let text = "Please visit Microsoft and Microsoft!";
 let newText = text.replace(/Microsoft/g, "W3Schools");
+```
 
-Try it Yourself »
 
 Note
 
