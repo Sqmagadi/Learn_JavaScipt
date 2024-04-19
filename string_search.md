@@ -183,9 +183,8 @@ Check if a string includes "world". Start at position 12:
 let text = "Hello world, welcome to the universe.";	
 text.includes("world", 12);	
     
-Try it Yourself »	
-Notes	
-    
+
+Notes:     
 includes() is case sensitive.	
     
 includes() is an ES6 feature.	
@@ -193,44 +192,47 @@ includes() is an ES6 feature.
 includes() is not supported in Internet Explorer.	
     
     
-JavaScript String startsWith()	
+*JavaScript String startsWith()*
     
 The startsWith() method returns true if a string begins with a specified value.	
     
 Otherwise it returns false:	
     
-Examples	
+*Examples*
     
-Returns true:	
-    
+Returns true:    
+
+```
 let text = "Hello world, welcome to the universe.";	
 text.startsWith("Hello");	
-    
-Try it Yourself »	
+```
     
 Returns false:	
-    
+
+```    
 let text = "Hello world, welcome to the universe.";	
 text.startsWith("world")	
-    
-Try it Yourself »	
+```
+
     
 A start position for the search can be specified:	
     
 Returns false:	
-    
+
+```
 let text = "Hello world, welcome to the universe.";	
 text.startsWith("world", 5)	
-    
-Try it Yourself »	
+```    
+
     
 Returns true:	
-    
+
+```
 let text = "Hello world, welcome to the universe.";	
 text.startsWith("world", 6)	
-    
-Try it Yourself »	
-Notes	
+ ```  
+
+Notes: 
     
 startsWith() is case sensitive.	
     
