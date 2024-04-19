@@ -93,19 +93,19 @@ You will learn more about regular expressions in a later chapter.
     
 
     
-JavaScript String match()	
+*JavaScript String match()*
     
 The match() method returns an array containing the results of matching a string against a string (or a regular expression).	
     
-Examples	
+*Examples*
     
 Perform a search for "ain":	
-    
+
+```    
 let text = "The rain in SPAIN stays mainly in the plain";	
 text.match("ain");	
-    
-Try it Yourself »	
-    
+```
+        
 Perform a search for "ain":	
     
 let text = "The rain in SPAIN stays mainly in the plain";	
