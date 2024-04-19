@@ -137,42 +137,46 @@ Read more about regular expressions in the chapter JS RegExp.
     
 The matchAll() method returns an iterator containing the results of matching a string against a string (or a regular expression).	
     
-Example	
-const iterator = text.matchAll("Cats");	
-Try it Yourself »	
+*Example*	
+
+`const iterator = text.matchAll("Cats");`	
+
     
 If the parameter is a regular expression, the global flag (g) must be set, otherwise a TypeError is thrown.	
     
-Example	
-const iterator = text.matchAll(/Cats/g);	
-Try it Yourself »	
+*Example*
+
+`const iterator = text.matchAll(/Cats/g);`
+
     
 If you want to search case insensitive, the insensitive flag (i) must be set:	
     
-Example	
-const iterator = text.matchAll(/Cats/gi);	
-Try it Yourself »	
+*Example*
+
+`const iterator = text.matchAll(/Cats/gi);`
+
 Notes	
     
-matchAll() is an ES2020 feature.	
+matchAll() is an ES2020 feature.
     
-matchAll() does not work in Internet Explorer.	
+matchAll() does not work in Internet Explorer.
     
     
-JavaScript String includes()	
+*JavaScript String includes()*
     
 The includes() method returns true if a string contains a specified value.	
     
 Otherwise it returns false.	
     
-Examples	
+*Examples*
     
-Check if a string includes "world":	
-    
+Check if a string includes "world":
+
+```    
 let text = "Hello world, welcome to the universe.";	
 text.includes("world");	
-    
-Try it Yourself »	
+```
+
     
 Check if a string includes "world". Start at position 12:	
     
