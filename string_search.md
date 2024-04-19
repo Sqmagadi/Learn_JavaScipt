@@ -111,29 +111,29 @@ Perform a search for "ain":
 let text = "The rain in SPAIN stays mainly in the plain";	
 text.match(/ain/);	
     
-Try it Yourself »	
-    
+
 Perform a global search for "ain":	
     
+```
 let text = "The rain in SPAIN stays mainly in the plain";	
 text.match(/ain/g);	
-    
-Try it Yourself »	
+``` 
+
     
 Perform a global, case-insensitive search for "ain":	
     
+```
 let text = "The rain in SPAIN stays mainly in the plain";	
 text.match(/ain/gi);	
-    
-Try it Yourself »	
-Note	
-    
+ ```
+
+Note:     
 If a regular expression does not include the g modifier (global search), match() will return only the first match in the string.	
     
 Read more about regular expressions in the chapter JS RegExp.	
     
     
-JavaScript String matchAll()	
+*JavaScript String matchAll()*
     
 The matchAll() method returns an iterator containing the results of matching a string against a string (or a regular expression).	
     
