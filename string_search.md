@@ -234,48 +234,41 @@ text.startsWith("world", 6)
 
 Notes: 
     
-startsWith() is case sensitive.	
+startsWith() is case sensitive.
     
 startsWith() is an ES6 feature.	
     
 startsWith() is not supported in Internet Explorer.	
     
     
-JavaScript String endsWith()	
+*JavaScript String endsWith()*
     
 The endsWith() method returns true if a string ends with a specified value.	
     
 Otherwise it returns false:	
     
-Examples	
+*Examples*
     
 Check if a string ends with "Doe":	
-    
+
+```
 let text = "John Doe";	
 text.endsWith("Doe");	
-    
-Try it Yourself »	
+```
+
     
 Check if the 11 first characters of a string ends with "world":	
-    
+
+```
 let text = "Hello world, welcome to the universe.";	
 text.endsWith("world", 11);	
+```
+
     
-Try it Yourself »	
+Notes: 
+
+endsWith() is case sensitive.
     
-Notes	
+endsWith() is an ES6 feature.
     
-endsWith() is case sensitive.	
-    
-endsWith() is an ES6 feature.	
-    
-endsWith() is not supported in Internet Explorer.	
-    
-    
-Complete String Reference	
-    
-For a complete String reference, go to our:	
-    
-Complete JavaScript String Reference.	
-    
-The reference contains descriptions and examples of all string properties and methods.	
+endsWith() is not supported in Internet Explorer.
